@@ -1,2 +1,2 @@
 # menu-maker
-Query POSaBit API and return formatted printable menus.
+A Chrome extension to query POSaBit API and return formatted printable menus.
