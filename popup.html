@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Menu Maker</title>
+    <style>
+        body {
+            border: 2px solid green;
+            border-radius: 5px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+            background-color: white;
+        }
+        button {
+            padding: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: auto;
+            transition: background-color .5s ease-in,
+                        color .5s ease-in;
+        }
+        h2 {
+            text-align: center;
+            align-content: center;
+        }
+        header {
+            display: flex;
+        }
+        html {
+            background-color: darkgreen;
+        }
+        #container {
+            width: 420px;
+            display: inline-flex;
+        }
+        #data-output {
+            display: block;
+            text-align: center;
+            margin-bottom: 2%;
+        }
+        .icon {
+            width: 35px; 
+            display: block; 
+            margin: auto;
+        }
+        .clicked {
+            background-color: white;
+            color: #4CAF50;
+        }
+        .disclaimer {
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <img src="icon.png" class="icon" /><h2>Mega Menu Maker</h2><img src="icon.png" class="icon" />
+    </header>
+    <div id="container">
+	    <button id="carts">Carts</button>
+        <button id="dabs">Dabs</button>
+        <button id="flower">Flower</button>
+        <button id="prepacks">Pre-Packs</button>
+        <button id="prerolls">Prerolls</button>
+    </div>
+    <div id="data-output" class="disclaimer"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
